@@ -43,7 +43,7 @@
             <objects>
                 <navigationController id="OW3-Ms-G62" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Champions" image="ic_group_work" id="nNW-cG-UB5"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="EbL-wi-j7S">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="EbL-wi-j7S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -60,7 +60,7 @@
             <objects>
                 <navigationController id="6ex-EV-00b" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="ic_person" id="NsK-nI-avO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="5Kd-AW-c2I">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="5Kd-AW-c2I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -93,6 +93,19 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="urz-uc-02p">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Summoner Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="G1n-c7-ZSX">
+                                            <rect key="frame" x="110.5" y="318.5" width="154" height="30"/>
+                                            <color key="backgroundColor" red="0.81176470590000005" green="0.72941176470000002" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.050980392156862744" green="0.078431372549019607" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="alert" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="G1n-c7-ZSX" firstAttribute="centerY" secondItem="urz-uc-02p" secondAttribute="centerY" id="kXH-Tf-ATp"/>
+                                        <constraint firstItem="G1n-c7-ZSX" firstAttribute="centerX" secondItem="urz-uc-02p" secondAttribute="centerX" id="s9q-uE-5V2"/>
+                                    </constraints>
                                 </view>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <blurEffect style="dark"/>
@@ -111,26 +124,6 @@
                                     <outlet property="rootViewController" destination="PT5-d7-Azv" id="oYN-Hm-Nak"/>
                                 </connections>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CMF-fG-rXM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="568"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iOM-yt-cvl">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="10" minY="74" maxX="10" maxY="10"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="flu-SY-MJ9">
-                                        <rect key="frame" x="10" y="74" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -141,17 +134,15 @@
                             <constraint firstAttribute="bottom" secondItem="GUU-TX-hC9" secondAttribute="bottom" id="PZu-KB-Br0"/>
                             <constraint firstAttribute="trailing" secondItem="J1a-jm-NrF" secondAttribute="trailing" id="QOy-1U-ax0"/>
                             <constraint firstItem="qGx-fJ-pnI" firstAttribute="leading" secondItem="Bzf-wi-eTF" secondAttribute="leading" id="RGz-1G-xBb"/>
-                            <constraint firstItem="J1a-jm-NrF" firstAttribute="top" secondItem="CMF-fG-rXM" secondAttribute="bottom" id="TY5-x0-cml"/>
                             <constraint firstItem="GUU-TX-hC9" firstAttribute="top" secondItem="Bzf-wi-eTF" secondAttribute="top" id="VAi-YZ-3Eg"/>
                             <constraint firstItem="GUU-TX-hC9" firstAttribute="leading" secondItem="Bzf-wi-eTF" secondAttribute="leading" id="c9w-vc-Rt2"/>
                             <constraint firstAttribute="bottom" secondItem="qGx-fJ-pnI" secondAttribute="bottom" id="nMk-23-MuM"/>
-                            <constraint firstItem="CMF-fG-rXM" firstAttribute="top" secondItem="Bzf-wi-eTF" secondAttribute="top" id="pHW-YY-vY9"/>
-                            <constraint firstAttribute="trailing" secondItem="CMF-fG-rXM" secondAttribute="trailing" id="pva-wa-LfQ"/>
-                            <constraint firstItem="CMF-fG-rXM" firstAttribute="leading" secondItem="Bzf-wi-eTF" secondAttribute="leading" id="xQT-x2-Zyr"/>
                             <constraint firstItem="J1a-jm-NrF" firstAttribute="leading" secondItem="Bzf-wi-eTF" secondAttribute="leading" id="yNa-7A-vB7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vsV-sZ-XWY"/>
+                    <navigationItem key="navigationItem" id="vsV-sZ-XWY">
+                        <barButtonItem key="rightBarButtonItem" title="NA" id="azx-8G-4q1"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rt-NV-zEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

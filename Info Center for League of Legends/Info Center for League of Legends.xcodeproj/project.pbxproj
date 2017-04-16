@@ -11,8 +11,10 @@
 		17CE58AB1EA2EDAF00EB3E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE58AA1EA2EDAF00EB3E40 /* ViewController.swift */; };
 		17CE58AE1EA2EDAF00EB3E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CE58AC1EA2EDAF00EB3E40 /* Main.storyboard */; };
 		17CE58B11EA2EDAF00EB3E40 /* Info_Center_for_League_of_Legends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17CE58AF1EA2EDAF00EB3E40 /* Info_Center_for_League_of_Legends.xcdatamodeld */; };
-		17CE58B31EA2EDAF00EB3E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CE58B21EA2EDAF00EB3E40 /* Assets.xcassets */; };
 		17CE58B61EA2EDAF00EB3E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CE58B41EA2EDAF00EB3E40 /* LaunchScreen.storyboard */; };
+		17D723281EA2F01B00BBED97 /* Fall.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D723251EA2F01B00BBED97 /* Fall.xcassets */; };
+		17D723291EA2F01B00BBED97 /* Normal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D723261EA2F01B00BBED97 /* Normal.xcassets */; };
+		17D7232A1EA2F01B00BBED97 /* Winter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D723271EA2F01B00BBED97 /* Winter.xcassets */; };
 		AD5069E21D474822750D8903 /* Pods_Info_Center_for_League_of_Legends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B226F0FC36D1B671B51E6C1 /* Pods_Info_Center_for_League_of_Legends.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +25,11 @@
 		17CE58AA1EA2EDAF00EB3E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17CE58AD1EA2EDAF00EB3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CE58B01EA2EDAF00EB3E40 /* Info_Center_for_League_of_Legends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Info_Center_for_League_of_Legends.xcdatamodel; sourceTree = "<group>"; };
-		17CE58B21EA2EDAF00EB3E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CE58B51EA2EDAF00EB3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17CE58B71EA2EDAF00EB3E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D723251EA2F01B00BBED97 /* Fall.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fall.xcassets; sourceTree = "<group>"; };
+		17D723261EA2F01B00BBED97 /* Normal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Normal.xcassets; sourceTree = "<group>"; };
+		17D723271EA2F01B00BBED97 /* Winter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Winter.xcassets; sourceTree = "<group>"; };
 		4B226F0FC36D1B671B51E6C1 /* Pods_Info_Center_for_League_of_Legends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Info_Center_for_League_of_Legends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C30923E52A47F5AB1A4B93 /* Pods-Info Center for League of Legends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Info Center for League of Legends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Info Center for League of Legends/Pods-Info Center for League of Legends.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +70,10 @@
 				17CE58A81EA2EDAF00EB3E40 /* AppDelegate.swift */,
 				17CE58AA1EA2EDAF00EB3E40 /* ViewController.swift */,
 				17CE58AC1EA2EDAF00EB3E40 /* Main.storyboard */,
-				17CE58B21EA2EDAF00EB3E40 /* Assets.xcassets */,
 				17CE58B41EA2EDAF00EB3E40 /* LaunchScreen.storyboard */,
+				17D723261EA2F01B00BBED97 /* Normal.xcassets */,
+				17D723251EA2F01B00BBED97 /* Fall.xcassets */,
+				17D723271EA2F01B00BBED97 /* Winter.xcassets */,
 				17CE58B71EA2EDAF00EB3E40 /* Info.plist */,
 				17CE58AF1EA2EDAF00EB3E40 /* Info_Center_for_League_of_Legends.xcdatamodeld */,
 			);
@@ -154,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D723291EA2F01B00BBED97 /* Normal.xcassets in Resources */,
 				17CE58B61EA2EDAF00EB3E40 /* LaunchScreen.storyboard in Resources */,
-				17CE58B31EA2EDAF00EB3E40 /* Assets.xcassets in Resources */,
+				17D7232A1EA2F01B00BBED97 /* Winter.xcassets in Resources */,
 				17CE58AE1EA2EDAF00EB3E40 /* Main.storyboard in Resources */,
+				17D723281EA2F01B00BBED97 /* Fall.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +391,7 @@
 				17CE58BC1EA2EDAF00EB3E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

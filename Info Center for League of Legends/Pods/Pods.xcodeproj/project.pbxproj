@@ -1,0 +1,1809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C1C4CA9FF9BF191C6F30D203B1F6F4 /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300EF8FEAF487CF510848A56988F0D /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08562D03E2511A3F14E5F048B53E987F /* XCDYouTubeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB080A199E7E0C7A84BD876A82B29BD /* XCDYouTubeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE17986C01ADDCE240C35B0FAA828C7 /* SGSStaggeredFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932FB20480404F95E70DDEC2F871C131 /* SGSStaggeredFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F06302B6F5B0BB3B4DE49CB7BFF777C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		0F83504990983574CABCA0152C309775 /* AMPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D16FADF863F828F32E19A51B2E180 /* AMPopTip.m */; };
+		180CDEF4CDFCBF06107CA613EEFB9393 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD547461E4AC01233551BCCCF2E27A /* BEMLine.m */; };
+		23C24264DEB75B813456B5ED96582995 /* BEMAverageLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 967945ECE495FD0D1AC0592F73A1A592 /* BEMAverageLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28818D2A2515DCB4353FBA631E3802A8 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D66D1AE436B56CAA0A02DABBD497D6 /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A06C6DDEB5786CA18B5D365BFAB7106 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC90AA800F6CF822CA8CF483CBD7E5A /* XCDYouTubeVideoPlayerViewController.m */; };
+		2EB764679D4DB99AA67802632402667A /* BEMSimpleLineGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B578DF5AD2E8424619B55AF6CACD4EB9 /* BEMSimpleLineGraph-dummy.m */; };
+		319A52E615993CB658BC704C0A70358A /* JSBadgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 284BF981C57F8961E9E3DE6F90E29E9F /* JSBadgeView-dummy.m */; };
+		33041AB08BDC3DA5C4EBE52316F70EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		35E8586244A9FD8A8D0165068EF8ABDC /* SGSStaggeredFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7A5627283CE7CAFD3B3E67FF4613CA /* SGSStaggeredFlowLayout-dummy.m */; };
+		36F74FBBB97437B0D9616D519D2FF291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		37197A5B787C28106F8B170C59B966E6 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D5E84FD81858F058A54666B2D3D569 /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FD18B8CB09B6670A3C2E262621E246B /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F7FFECC986CE60D0705AA24E5ABD /* XCDYouTubeKit-dummy.m */; };
+		4BF8008DA1AFF6C9CA41F959E4E16234 /* SGSStaggeredFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E7781574E55055BC4C77BA84F621C6 /* SGSStaggeredFlowLayout.m */; };
+		4C89F8EC2FA230C3858EB23E39BD87A3 /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8CA0F18B3913982807847955A0930F /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512E9C02791C1FC0289EB52C6F8D4D0B /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 76746BCC099AE9B8B11F62776CC96890 /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547D93AA0355E1D702AA8528BD14F305 /* AMPopTipDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C46FA088DA444BF8D7FDA5332CE0DDE /* AMPopTipDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D5EEB9B69E99D4060733A2B15F9477 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4498595BC9010E637B4278A776425439 /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B0D5D3EAB6EB25495070DB1EA74C18 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCDCE06C4F5D9D4656D0D890979EB2 /* XCDYouTubeVideo.m */; };
+		5D87F3DADCD4493C556A08CE44F15C8B /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B484224428300A62C82D453AAA9BA1 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC3D7432725924EA5FD01ACA90178C1 /* BEMSimpleLineGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49441A4A51CC2360693B35077C185A8 /* BEMSimpleLineGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6816AD81363A48E7DD7BF2D2889A147C /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3FD5B093AC7D7C26FA2729FD4BDEC5 /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A062F38885143D2FDB4E1D00C923FB /* AMPopTip+Entrance.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F5957C32CDADE31DE24AE70131026 /* AMPopTip+Entrance.m */; };
+		72AAA210835F5437A7F649E9FA5E1AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		745C0807A5ADD9087997AB4C488308F4 /* JSBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = D345B21D3E4C862EB30BC32725A02FAF /* JSBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7469C26B86045643D4744DE14A5AF3E0 /* BEMAverageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C9A8E4C5ED19F35E9DA27A5682587 /* BEMAverageLine.m */; };
+		77C8278B25BBE7290F8A0818E1705A86 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D85B29B0BBAFACE5DA2ACA7A32D62D /* MBCircularProgressBar-dummy.m */; };
+		77CFC4AC38D180712276C0BA0BA3FFAB /* Pods-Info Center for League of Legends-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB4303B7CE841913BDCB5F6581ACF18 /* Pods-Info Center for League of Legends-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FE815D15133B3421D591F3016057BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		7B5656D4FDD9E33EA4EAFB591F9D3237 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B5FDA25235DB3366E23E60BC4D16EB /* MBCircularProgressBarView.m */; };
+		7F5A7B4C94D3D46EDFBF4E9E705CB825 /* AMPopTip+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = B75DD04A8FFC77F96D1177E234882E63 /* AMPopTip+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9E143226AEFDCEF50DE4C03E45849E /* AMPopTip+Entrance.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE37A73DE203268BF8BAA99444CE8E0 /* AMPopTip+Entrance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80435D592C8A45C0A4CD1DDCAB0EA487 /* SGSStaggeredFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BD42A908BA3D6FCECE14B90D508D46 /* SGSStaggeredFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B3C7DF006995227EB11176C5B30842 /* AMPopTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E62494D33A9162E48CBE04C5B660EFC /* AMPopTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DB770FBBCD57A516BFB672FDD6ED35 /* AMPopTip+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808B84031F6D6274C7EA0CCA8D60A27 /* AMPopTip+Animation.m */; };
+		884C8E166B2E075CD9A634432695CAAE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4377A2EFA5CB5F64EC4E786D1F1EABA2 /* MediaPlayer.framework */; };
+		8BD42A0E9C61C9B45A6FCB1C6F2558A6 /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB2AB1D26234E490C89A1BD8CEB6776 /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4DB055CF0A5687AF7CC6067A7AEB46 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91C961525C9DF9D03E30970E2EBBB8 /* example.png */; };
+		8EB4D1D0688DF8F8E55C1911C09490D4 /* AMPopTip+Draw.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB2AF2157E1BEDF000229FAC55DABEB /* AMPopTip+Draw.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ECD33327145C2EC525419EA74F1CD64 /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 328C2FA5CE98508D7CD1A4D89F51FC2A /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FB59254682D701BF09A5076B9F11E7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BA5F1C64FD2B47E5E4FBBE45B6EB50 /* QuartzCore.framework */; };
+		916253E339E12400A104EBAF76A9AFD2 /* Pods-Info Center for League of Legends-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6612EC0CD0F0EFFB40FA658756064 /* Pods-Info Center for League of Legends-dummy.m */; };
+		97E19C79C5D09D2C2BC539FBF592ABC8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBBEC8FF58A7F757FCBF2B9A706F5F3 /* JavaScriptCore.framework */; };
+		98BAB2A66134DBAADE719DFBD0EA6C85 /* AMPopTip+Exit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F7EB8414E9DF00BA26CE1C22AAF86 /* AMPopTip+Exit.m */; };
+		9D6605300ADB51894C44E6F8E27B176E /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 924335FFB669EC61A00ECAA29C7E9201 /* AMPopTip-dummy.m */; };
+		A17E6E1C53C7D3D2FA803DF74A013B78 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F743EEE32B50154A7D72CD2268EAAEC /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7192B5DF2E925DDA816B927AD0C3030 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB60453AE40A68AC19E301040859DA7 /* XCDYouTubeLogger.m */; };
+		A928038835630D15DD884BFE84567845 /* BEMLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDA57ED962BB22D1CA62735BBC1412 /* BEMLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94A11448B594303235C9908A4F04A8C /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39459CDAA5BBD1DCC780C23B7DAE1E11 /* MBCircularProgressBarLayer.m */; };
+		A9E33486F23D3DCE5A4FBC0A7ED41173 /* AMPopTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFD3CEFE8DD93EE35196EC2B6CAB537 /* AMPopTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA415176B2D6A972CD079F4D41312125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		ABF93FCB1E7333C4DA22900A7789ACC8 /* MBCircularProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C60B49DB0886E4C134EA3D028856D23D /* MBCircularProgressBar.bundle */; };
+		AD24FD50F7E0BBB023882D380F567D2E /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA74E3A88965085AC58F61F70A529B9 /* BEMCircle.m */; };
+		ADD6D7C55162AB66CB1B716A8FCC8FBB /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB0B45E06FDE6D84873394DC8391FF0 /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE82BF11FEA4526DF02D2DD824AA04D2 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B03E43808248A6A5D8E2420490F19E8 /* XCDYouTubeVideoOperation.m */; };
+		B125CE2DB2CD52BDCA6180659B1AE37B /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F16AB7B6DEB07E7B135054A327CA20D /* XCDYouTubePlayerScript.m */; };
+		B3CFD0E65088F61FF8DBDE5C9E280E69 /* JSBadgeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5AE77698F4BC1330C6F1AD11023FFEF5 /* JSBadgeView.bundle */; };
+		B3D283A140C8C0B67270C3855FD493FC /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A38F69951FDD5BAC264F3850CC53EF /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6A5D6455666B19E86FA7B8AE4D5EF44 /* AMPopTip+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C890FDBA1CFB58830D85135C1D577DB /* AMPopTip+Draw.m */; };
+		BBA79FCF1B0B3B9AF073DD7A7332E034 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E628B5C2B80C139ED3A567DD0586630 /* XCDYouTubeVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF2ACD3C2D6BC86B844D870D649CBE8 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E62B84BEFD588F532F9C86DFD2CAC2 /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFC8F825296EA8358FB70B3D986598B /* BEMSimpleLineGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = 650425750F943CEDEF69A4F23A56B1CF /* BEMSimpleLineGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC00BF1B4A2E99CC4E61C078303A33DB /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 31849627D679E1BC9097F99169A55EA9 /* XCDYouTubeVideoWebpage.m */; };
+		BFA6BE62D09F0653B1B7D1FB5B257EBF /* BEMGraphCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7A42699F0EF8BBC20FA29BACE3A98 /* BEMGraphCalculator.m */; };
+		BFD47852FF069D72E49ECB61FAA3D969 /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 939922E4C73BD27A8EA077C5E1CF92BA /* JSBadgeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8E104C92C1E3ECCBCE651B35AC7FA6A /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C705F66D292585AB5C2630900F5B0 /* XCDYouTubeClient.m */; };
+		CF170180BC557AB61E0D3A65B1DED90F /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9D9A5D69E58D17264D42F9D5FDE25 /* BEMSimpleLineGraphView.m */; };
+		D78A793D6A9B9ABF1D527D08A427D7D3 /* JSBadgeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC429FD52D2493A7FF8DA6D857AC64C5 /* JSBadgeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D970046234371F8DCCDF35A59383CB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */; };
+		E0ABD89C3E04433BEFBE1AC677DF7803 /* AMPopTip+Exit.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A207FB8899142A2CB1E5F9D9B6B819 /* AMPopTip+Exit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F892C572B72F84C28F3903F02447AC68 /* BEMGraphCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = B0295694D4E8DAE069DA2E59A21EC7B1 /* BEMGraphCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB964447624EF2929A63ABE0EE89A282 /* BEMCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 679AE447F07CE5648D2EE14AD714E1D7 /* BEMCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E01499D58976B3F0EAC77642E8251E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE9AF9A31F622A73BBD80BBC396FB3D;
+			remoteInfo = SGSStaggeredFlowLayout;
+		};
+		118A66A41AC74318AF20CAD8548B7B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F64F691C3C68E6FDA6FB1E22434EBA5;
+			remoteInfo = AMPopTip;
+		};
+		301A6F64EDD08CFF4C105CE828187E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC840DD7C14BED838F74AD37CD7CBBA;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+		541F276CB258002FA4F8092E59AB0EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F579AA4D4755DD9570010BC36D0422F7;
+			remoteInfo = MBCircularProgressBar;
+		};
+		57DEF9B3E7EBE11152ACAF0E6473D014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25615DF9BF8FFAF6A63BF1D878DC7DB;
+			remoteInfo = "JSBadgeView-JSBadgeView";
+		};
+		5E3FD50E06129C6804985E9CFDE03242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4713F0C254D824AFCE023D25B1184AF3;
+			remoteInfo = JSBadgeView;
+		};
+		B6B71AB973C45DE601E6BAF7A9A8DD4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF601B9C51EE50C2DF710D605F4C431;
+			remoteInfo = XCDYouTubeKit;
+		};
+		D62A2B44685B0467F71163E9E70455E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A421C6298CB3DF5D749193BD6FD0B38;
+			remoteInfo = BEMSimpleLineGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0025A555956B93020AD94CF0A082DE43 /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar.framework; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A1681D4D6A81B4697B2294F8924E85 /* Pods-Info Center for League of Legends.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Info Center for League of Legends.modulemap"; sourceTree = "<group>"; };
+		0B03E43808248A6A5D8E2420490F19E8 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		0BAD547461E4AC01233551BCCCF2E27A /* BEMLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMLine.m; path = Classes/BEMLine.m; sourceTree = "<group>"; };
+		0C890FDBA1CFB58830D85135C1D577DB /* AMPopTip+Draw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Draw.m"; path = "Source/AMPopTip+Draw.m"; sourceTree = "<group>"; };
+		0CE47DDC9BF4504DD7FA0715459456E8 /* Pods-Info Center for League of Legends-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Info Center for League of Legends-acknowledgements.markdown"; sourceTree = "<group>"; };
+		123E6FC53F1481C4D5DFA208E6491510 /* SGSStaggeredFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSStaggeredFlowLayout.framework; path = SGSStaggeredFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DDFE7E5ABF65537A8B394B7F8C7566 /* SGSStaggeredFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SGSStaggeredFlowLayout.modulemap; sourceTree = "<group>"; };
+		1808B84031F6D6274C7EA0CCA8D60A27 /* AMPopTip+Animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Animation.m"; path = "Source/AMPopTip+Animation.m"; sourceTree = "<group>"; };
+		1FABE6429D33C4E59A2FC28D096D3BF3 /* XCDYouTubeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XCDYouTubeKit.modulemap; sourceTree = "<group>"; };
+		21A38F69951FDD5BAC264F3850CC53EF /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		2689B6AF5DAB78F513D5C1432ACDD54D /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		26A6612EC0CD0F0EFFB40FA658756064 /* Pods-Info Center for League of Legends-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Info Center for League of Legends-dummy.m"; sourceTree = "<group>"; };
+		26E001ABA2DA44F783E2B9C40037208E /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
+		27B5FDA25235DB3366E23E60BC4D16EB /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		284BF981C57F8961E9E3DE6F90E29E9F /* JSBadgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSBadgeView-dummy.m"; sourceTree = "<group>"; };
+		2C46FA088DA444BF8D7FDA5332CE0DDE /* AMPopTipDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPopTipDefaults.h; path = Source/AMPopTipDefaults.h; sourceTree = "<group>"; };
+		2DC7A42699F0EF8BBC20FA29BACE3A98 /* BEMGraphCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMGraphCalculator.m; path = Classes/BEMGraphCalculator.m; sourceTree = "<group>"; };
+		2E62494D33A9162E48CBE04C5B660EFC /* AMPopTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-umbrella.h"; sourceTree = "<group>"; };
+		2FA74E3A88965085AC58F61F70A529B9 /* BEMCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCircle.m; path = Classes/BEMCircle.m; sourceTree = "<group>"; };
+		31849627D679E1BC9097F99169A55EA9 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		328C2FA5CE98508D7CD1A4D89F51FC2A /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		3315D325F5583679ECB55BF1FCBFA6DD /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		39459CDAA5BBD1DCC780C23B7DAE1E11 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		3AE7FE95C2FFEE44242CDF34D45C5F17 /* JSBadgeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSBadgeView.modulemap; sourceTree = "<group>"; };
+		3CB60453AE40A68AC19E301040859DA7 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		3EB366037357087CA32DDAA524B9DA58 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		3F743EEE32B50154A7D72CD2268EAAEC /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		41F64893E3D4EF2FE11FA8708316B5A9 /* JSBadgeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBadgeView-prefix.pch"; sourceTree = "<group>"; };
+		4377A2EFA5CB5F64EC4E786D1F1EABA2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		4498595BC9010E637B4278A776425439 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		44B484224428300A62C82D453AAA9BA1 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		48E7781574E55055BC4C77BA84F621C6 /* SGSStaggeredFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSStaggeredFlowLayout.m; path = SGSStaggeredFlowLayout/SGSStaggeredFlowLayout.m; sourceTree = "<group>"; };
+		4B55F7FFECC986CE60D0705AA24E5ABD /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+		4D91C961525C9DF9D03E30970E2EBBB8 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		4E14442F93642DF0E716502587E068ED /* Pods-Info Center for League of Legends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Info Center for League of Legends.release.xcconfig"; sourceTree = "<group>"; };
+		4FBBEC8FF58A7F757FCBF2B9A706F5F3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		4FFD3CEFE8DD93EE35196EC2B6CAB537 /* AMPopTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPopTip.h; path = Source/AMPopTip.h; sourceTree = "<group>"; };
+		561C9A8E4C5ED19F35E9DA27A5682587 /* BEMAverageLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAverageLine.m; path = Classes/BEMAverageLine.m; sourceTree = "<group>"; };
+		57CDA57ED962BB22D1CA62735BBC1412 /* BEMLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMLine.h; path = Classes/BEMLine.h; sourceTree = "<group>"; };
+		5AE77698F4BC1330C6F1AD11023FFEF5 /* JSBadgeView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JSBadgeView.bundle; path = JSBadgeView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE37A73DE203268BF8BAA99444CE8E0 /* AMPopTip+Entrance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Entrance.h"; path = "Source/AMPopTip+Entrance.h"; sourceTree = "<group>"; };
+		5E628B5C2B80C139ED3A567DD0586630 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		5F4A052F8D676A679BA4D10E0D492057 /* ResourceBundle-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		624D816CA9B4249113D52AD2EDA5E6EF /* Pods-Info Center for League of Legends-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Info Center for League of Legends-resources.sh"; sourceTree = "<group>"; };
+		650425750F943CEDEF69A4F23A56B1CF /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMSimpleLineGraphView.h; path = Classes/BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		679AE447F07CE5648D2EE14AD714E1D7 /* BEMCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCircle.h; path = Classes/BEMCircle.h; sourceTree = "<group>"; };
+		67E62B84BEFD588F532F9C86DFD2CAC2 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		69D85B29B0BBAFACE5DA2ACA7A32D62D /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		6A5D069BBCF2627CE77850ED4CE419F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3D7ACB30A42C2E3697309E76111619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3FD5B093AC7D7C26FA2729FD4BDEC5 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		6D30FE7FF1E84C86D15497348D70CA80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE555B4804724D49D092FF3F423CE76 /* BEMSimpleLineGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-prefix.pch"; sourceTree = "<group>"; };
+		6F16AB7B6DEB07E7B135054A327CA20D /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		7218F9E8B9A9873A663E5585D09143F8 /* Pods-Info Center for League of Legends-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Info Center for League of Legends-frameworks.sh"; sourceTree = "<group>"; };
+		76746BCC099AE9B8B11F62776CC96890 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		76CCDD4B73157E77404DD024ED01E0D5 /* Pods-Info Center for League of Legends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Info Center for League of Legends.debug.xcconfig"; sourceTree = "<group>"; };
+		7812A0642358B45DDBF88C3709F8497F /* AMPopTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMPopTip.modulemap; sourceTree = "<group>"; };
+		790FF41D887630AC4B049B0882C0E9F3 /* Pods_Info_Center_for_League_of_Legends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Info_Center_for_League_of_Legends.framework; path = "Pods-Info Center for League of Legends.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A300EF8FEAF487CF510848A56988F0D /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		7AB2AF2157E1BEDF000229FAC55DABEB /* AMPopTip+Draw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Draw.h"; path = "Source/AMPopTip+Draw.h"; sourceTree = "<group>"; };
+		7CB2AB1D26234E490C89A1BD8CEB6776 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		840C705F66D292585AB5C2630900F5B0 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		8ACCDCE06C4F5D9D4656D0D890979EB2 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		8DC5C3E91842E51E92A7FDEDD5848066 /* JSBadgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSBadgeView.framework; path = JSBadgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB080A199E7E0C7A84BD876A82B29BD /* XCDYouTubeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-umbrella.h"; sourceTree = "<group>"; };
+		8FF9D9A5D69E58D17264D42F9D5FDE25 /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMSimpleLineGraphView.m; path = Classes/BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		924335FFB669EC61A00ECAA29C7E9201 /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
+		932FB20480404F95E70DDEC2F871C131 /* SGSStaggeredFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSStaggeredFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		939922E4C73BD27A8EA077C5E1CF92BA /* JSBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSBadgeView.m; path = Pod/Classes/JSBadgeView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BD42A908BA3D6FCECE14B90D508D46 /* SGSStaggeredFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSStaggeredFlowLayout.h; path = SGSStaggeredFlowLayout/SGSStaggeredFlowLayout.h; sourceTree = "<group>"; };
+		96223B3CE6ED5DE805A51B649090AA30 /* XCDYouTubeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCDYouTubeKit.framework; path = XCDYouTubeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967945ECE495FD0D1AC0592F73A1A592 /* BEMAverageLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAverageLine.h; path = Classes/BEMAverageLine.h; sourceTree = "<group>"; };
+		9CFABA1E76BBD6CF26E62004981BD910 /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
+		A9D5E84FD81858F058A54666B2D3D569 /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		AA5F5957C32CDADE31DE24AE70131026 /* AMPopTip+Entrance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Entrance.m"; path = "Source/AMPopTip+Entrance.m"; sourceTree = "<group>"; };
+		AA64F2D2A4887BE7DDDD7BD010EB3148 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8CA0F18B3913982807847955A0930F /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		AC429FD52D2493A7FF8DA6D857AC64C5 /* JSBadgeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBadgeView-umbrella.h"; sourceTree = "<group>"; };
+		B0295694D4E8DAE069DA2E59A21EC7B1 /* BEMGraphCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMGraphCalculator.h; path = Classes/BEMGraphCalculator.h; sourceTree = "<group>"; };
+		B238DE8433C0A859DFA3850107581A9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B578DF5AD2E8424619B55AF6CACD4EB9 /* BEMSimpleLineGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMSimpleLineGraph-dummy.m"; sourceTree = "<group>"; };
+		B75DD04A8FFC77F96D1177E234882E63 /* AMPopTip+Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Animation.h"; path = "Source/AMPopTip+Animation.h"; sourceTree = "<group>"; };
+		BBB0B45E06FDE6D84873394DC8391FF0 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		C60B49DB0886E4C134EA3D028856D23D /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBCircularProgressBar.bundle; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSBadgeView.xcconfig; sourceTree = "<group>"; };
+		C9B5469696A2EDBD94085B652CE82407 /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopTip.framework; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB4303B7CE841913BDCB5F6581ACF18 /* Pods-Info Center for League of Legends-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Info Center for League of Legends-umbrella.h"; sourceTree = "<group>"; };
+		D03EA8D47F2A0B7ACF3C10C9CF04F3F5 /* SGSStaggeredFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSStaggeredFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		D11E233A72416371A4583DDA796B2AEA /* BEMSimpleLineGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMSimpleLineGraph.modulemap; sourceTree = "<group>"; };
+		D345B21D3E4C862EB30BC32725A02FAF /* JSBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSBadgeView.h; path = Pod/Classes/JSBadgeView.h; sourceTree = "<group>"; };
+		D355869231FCF166829483069D2AA45E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D420569F1EDD1BCCEF18554EB7A41304 /* AMPopTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.xcconfig; sourceTree = "<group>"; };
+		DB6F7EB8414E9DF00BA26CE1C22AAF86 /* AMPopTip+Exit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Exit.m"; path = "Source/AMPopTip+Exit.m"; sourceTree = "<group>"; };
+		DCC5C6F6120FF97AB5879457970A8192 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7A5627283CE7CAFD3B3E67FF4613CA /* SGSStaggeredFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSStaggeredFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		E081D0C74672A8A2CA77FA20E4522256 /* Pods-Info Center for League of Legends-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Info Center for League of Legends-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0D66D1AE436B56CAA0A02DABBD497D6 /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		E5A207FB8899142A2CB1E5F9D9B6B819 /* AMPopTip+Exit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Exit.h"; path = "Source/AMPopTip+Exit.h"; sourceTree = "<group>"; };
+		E9F7C1A4E939FBCB7F2979DF8939E46E /* BEMSimpleLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMSimpleLineGraph.framework; path = BEMSimpleLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFA66C9DA057706A64525B5222A2504 /* ResourceBundle-JSBadgeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JSBadgeView-Info.plist"; sourceTree = "<group>"; };
+		F49441A4A51CC2360693B35077C185A8 /* BEMSimpleLineGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-umbrella.h"; sourceTree = "<group>"; };
+		F51D16FADF863F828F32E19A51B2E180 /* AMPopTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPopTip.m; path = Source/AMPopTip.m; sourceTree = "<group>"; };
+		F5BA5F1C64FD2B47E5E4FBBE45B6EB50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FAC90AA800F6CF822CA8CF483CBD7E5A /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		FD6D0F00C0C9FFEB8E07552EE63B982A /* SGSStaggeredFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSStaggeredFlowLayout.xcconfig; sourceTree = "<group>"; };
+		FFBC6850A1515FD3181B5AF8E7E6EA53 /* BEMSimpleLineGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMSimpleLineGraph.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307D68CE799F0218D13F31384158D414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA415176B2D6A972CD079F4D41312125 /* Foundation.framework in Frameworks */,
+				8FB59254682D701BF09A5076B9F11E7F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B77C2D54B9713FBE43E3616D18F3415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33041AB08BDC3DA5C4EBE52316F70EA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB1B21FFE3B565A90266277AE2A5852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F74FBBB97437B0D9616D519D2FF291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D46FBBBFEBE450F53A9A646D603A1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D970046234371F8DCCDF35A59383CB3F /* Foundation.framework in Frameworks */,
+				97E19C79C5D09D2C2BC539FBF592ABC8 /* JavaScriptCore.framework in Frameworks */,
+				884C8E166B2E075CD9A634432695CAAE /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC24D9FFBB96E4CFB36F34E4E73294D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2D18FF316906944CFB7837858B392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FE815D15133B3421D591F3016057BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBC945B7FA8A164622ABBA180923376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F06302B6F5B0BB3B4DE49CB7BFF777C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D8378166760D4DA1D6194C4DAEA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AAA210835F5437A7F649E9FA5E1AA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA83FDD4EF2FF8BFA6B0418F44B4A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063142161FE081ACD584C57E123802DF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6712FE10603D00631DEE75DF009F9 /* Foundation.framework */,
+				4FBBEC8FF58A7F757FCBF2B9A706F5F3 /* JavaScriptCore.framework */,
+				4377A2EFA5CB5F64EC4E786D1F1EABA2 /* MediaPlayer.framework */,
+				F5BA5F1C64FD2B47E5E4FBBE45B6EB50 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0E924C0B274E04B737D71EA5768791CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D11E233A72416371A4583DDA796B2AEA /* BEMSimpleLineGraph.modulemap */,
+				FFBC6850A1515FD3181B5AF8E7E6EA53 /* BEMSimpleLineGraph.xcconfig */,
+				B578DF5AD2E8424619B55AF6CACD4EB9 /* BEMSimpleLineGraph-dummy.m */,
+				6EE555B4804724D49D092FF3F423CE76 /* BEMSimpleLineGraph-prefix.pch */,
+				F49441A4A51CC2360693B35077C185A8 /* BEMSimpleLineGraph-umbrella.h */,
+				AA64F2D2A4887BE7DDDD7BD010EB3148 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMSimpleLineGraph";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063142161FE081ACD584C57E123802DF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		172E31147676C5F67B1321F4E3420682 /* SGSStaggeredFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				93BD42A908BA3D6FCECE14B90D508D46 /* SGSStaggeredFlowLayout.h */,
+				48E7781574E55055BC4C77BA84F621C6 /* SGSStaggeredFlowLayout.m */,
+				E19ADF43347D36036AC955578D98ABBA /* Support Files */,
+			);
+			name = SGSStaggeredFlowLayout;
+			path = SGSStaggeredFlowLayout;
+			sourceTree = "<group>";
+		};
+		3B1A9743A1F0B09A31A081AFA3DF82BF /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				44B484224428300A62C82D453AAA9BA1 /* MBCircularProgressBarLayer.h */,
+				39459CDAA5BBD1DCC780C23B7DAE1E11 /* MBCircularProgressBarLayer.m */,
+				3F743EEE32B50154A7D72CD2268EAAEC /* MBCircularProgressBarView.h */,
+				27B5FDA25235DB3366E23E60BC4D16EB /* MBCircularProgressBarView.m */,
+				B90D4270662683C96753C6BB2021D9CC /* Resources */,
+				77C0A78A1102C76D3FA693287065D498 /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		3D8032E3BF5D2AC9D452C74B82288118 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2C116E9FE5DBD3D50534185842224 /* Pods-Info Center for League of Legends */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53C3E3908238E4850A1EFC4251DA7589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74FA72614BAB27E1518F755F56891525 /* AMPopTip */,
+				7D3D3102C058F4D4CD60A02BBB270BB0 /* BEMSimpleLineGraph */,
+				EBACB2506471C7E4074F1905A96C84AE /* JSBadgeView */,
+				3B1A9743A1F0B09A31A081AFA3DF82BF /* MBCircularProgressBar */,
+				172E31147676C5F67B1321F4E3420682 /* SGSStaggeredFlowLayout */,
+				9C2834E3797EE92F5F5110D6F3CDF5EA /* XCDYouTubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71F974F319193B1145F547B23D1477F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3D7ACB30A42C2E3697309E76111619 /* Info.plist */,
+				1FABE6429D33C4E59A2FC28D096D3BF3 /* XCDYouTubeKit.modulemap */,
+				26E001ABA2DA44F783E2B9C40037208E /* XCDYouTubeKit.xcconfig */,
+				4B55F7FFECC986CE60D0705AA24E5ABD /* XCDYouTubeKit-dummy.m */,
+				3315D325F5583679ECB55BF1FCBFA6DD /* XCDYouTubeKit-prefix.pch */,
+				8EB080A199E7E0C7A84BD876A82B29BD /* XCDYouTubeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		74FA72614BAB27E1518F755F56891525 /* AMPopTip */ = {
+			isa = PBXGroup;
+			children = (
+				4FFD3CEFE8DD93EE35196EC2B6CAB537 /* AMPopTip.h */,
+				F51D16FADF863F828F32E19A51B2E180 /* AMPopTip.m */,
+				B75DD04A8FFC77F96D1177E234882E63 /* AMPopTip+Animation.h */,
+				1808B84031F6D6274C7EA0CCA8D60A27 /* AMPopTip+Animation.m */,
+				7AB2AF2157E1BEDF000229FAC55DABEB /* AMPopTip+Draw.h */,
+				0C890FDBA1CFB58830D85135C1D577DB /* AMPopTip+Draw.m */,
+				5DE37A73DE203268BF8BAA99444CE8E0 /* AMPopTip+Entrance.h */,
+				AA5F5957C32CDADE31DE24AE70131026 /* AMPopTip+Entrance.m */,
+				E5A207FB8899142A2CB1E5F9D9B6B819 /* AMPopTip+Exit.h */,
+				DB6F7EB8414E9DF00BA26CE1C22AAF86 /* AMPopTip+Exit.m */,
+				2C46FA088DA444BF8D7FDA5332CE0DDE /* AMPopTipDefaults.h */,
+				EAF22CF651F37AE4360011830B54D88D /* Support Files */,
+			);
+			name = AMPopTip;
+			path = AMPopTip;
+			sourceTree = "<group>";
+		};
+		77C0A78A1102C76D3FA693287065D498 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B238DE8433C0A859DFA3850107581A9E /* Info.plist */,
+				3EB366037357087CA32DDAA524B9DA58 /* MBCircularProgressBar.modulemap */,
+				8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */,
+				69D85B29B0BBAFACE5DA2ACA7A32D62D /* MBCircularProgressBar-dummy.m */,
+				2689B6AF5DAB78F513D5C1432ACDD54D /* MBCircularProgressBar-prefix.pch */,
+				E0D66D1AE436B56CAA0A02DABBD497D6 /* MBCircularProgressBar-umbrella.h */,
+				5F4A052F8D676A679BA4D10E0D492057 /* ResourceBundle-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		7D3D3102C058F4D4CD60A02BBB270BB0 /* BEMSimpleLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				967945ECE495FD0D1AC0592F73A1A592 /* BEMAverageLine.h */,
+				561C9A8E4C5ED19F35E9DA27A5682587 /* BEMAverageLine.m */,
+				679AE447F07CE5648D2EE14AD714E1D7 /* BEMCircle.h */,
+				2FA74E3A88965085AC58F61F70A529B9 /* BEMCircle.m */,
+				B0295694D4E8DAE069DA2E59A21EC7B1 /* BEMGraphCalculator.h */,
+				2DC7A42699F0EF8BBC20FA29BACE3A98 /* BEMGraphCalculator.m */,
+				57CDA57ED962BB22D1CA62735BBC1412 /* BEMLine.h */,
+				0BAD547461E4AC01233551BCCCF2E27A /* BEMLine.m */,
+				650425750F943CEDEF69A4F23A56B1CF /* BEMSimpleLineGraphView.h */,
+				8FF9D9A5D69E58D17264D42F9D5FDE25 /* BEMSimpleLineGraphView.m */,
+				0E924C0B274E04B737D71EA5768791CE /* Support Files */,
+			);
+			name = BEMSimpleLineGraph;
+			path = BEMSimpleLineGraph;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				53C3E3908238E4850A1EFC4251DA7589 /* Pods */,
+				D7C572D26A8C8697CDC81DCECF3A52E7 /* Products */,
+				3D8032E3BF5D2AC9D452C74B82288118 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2834E3797EE92F5F5110D6F3CDF5EA /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA8CA0F18B3913982807847955A0930F /* XCDYouTubeClient.h */,
+				840C705F66D292585AB5C2630900F5B0 /* XCDYouTubeClient.m */,
+				76746BCC099AE9B8B11F62776CC96890 /* XCDYouTubeError.h */,
+				7CB2AB1D26234E490C89A1BD8CEB6776 /* XCDYouTubeKit.h */,
+				6B3FD5B093AC7D7C26FA2729FD4BDEC5 /* XCDYouTubeLogger.h */,
+				3CB60453AE40A68AC19E301040859DA7 /* XCDYouTubeLogger.m */,
+				A9D5E84FD81858F058A54666B2D3D569 /* XCDYouTubeLogger+Private.h */,
+				7A300EF8FEAF487CF510848A56988F0D /* XCDYouTubeOperation.h */,
+				21A38F69951FDD5BAC264F3850CC53EF /* XCDYouTubePlayerScript.h */,
+				6F16AB7B6DEB07E7B135054A327CA20D /* XCDYouTubePlayerScript.m */,
+				BBB0B45E06FDE6D84873394DC8391FF0 /* XCDYouTubeVideo.h */,
+				8ACCDCE06C4F5D9D4656D0D890979EB2 /* XCDYouTubeVideo.m */,
+				67E62B84BEFD588F532F9C86DFD2CAC2 /* XCDYouTubeVideo+Private.h */,
+				4498595BC9010E637B4278A776425439 /* XCDYouTubeVideoOperation.h */,
+				0B03E43808248A6A5D8E2420490F19E8 /* XCDYouTubeVideoOperation.m */,
+				5E628B5C2B80C139ED3A567DD0586630 /* XCDYouTubeVideoPlayerViewController.h */,
+				FAC90AA800F6CF822CA8CF483CBD7E5A /* XCDYouTubeVideoPlayerViewController.m */,
+				328C2FA5CE98508D7CD1A4D89F51FC2A /* XCDYouTubeVideoWebpage.h */,
+				31849627D679E1BC9097F99169A55EA9 /* XCDYouTubeVideoWebpage.m */,
+				71F974F319193B1145F547B23D1477F0 /* Support Files */,
+			);
+			name = XCDYouTubeKit;
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		B90D4270662683C96753C6BB2021D9CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D91C961525C9DF9D03E30970E2EBBB8 /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3E2C116E9FE5DBD3D50534185842224 /* Pods-Info Center for League of Legends */ = {
+			isa = PBXGroup;
+			children = (
+				6D30FE7FF1E84C86D15497348D70CA80 /* Info.plist */,
+				02A1681D4D6A81B4697B2294F8924E85 /* Pods-Info Center for League of Legends.modulemap */,
+				0CE47DDC9BF4504DD7FA0715459456E8 /* Pods-Info Center for League of Legends-acknowledgements.markdown */,
+				E081D0C74672A8A2CA77FA20E4522256 /* Pods-Info Center for League of Legends-acknowledgements.plist */,
+				26A6612EC0CD0F0EFFB40FA658756064 /* Pods-Info Center for League of Legends-dummy.m */,
+				7218F9E8B9A9873A663E5585D09143F8 /* Pods-Info Center for League of Legends-frameworks.sh */,
+				624D816CA9B4249113D52AD2EDA5E6EF /* Pods-Info Center for League of Legends-resources.sh */,
+				CDB4303B7CE841913BDCB5F6581ACF18 /* Pods-Info Center for League of Legends-umbrella.h */,
+				76CCDD4B73157E77404DD024ED01E0D5 /* Pods-Info Center for League of Legends.debug.xcconfig */,
+				4E14442F93642DF0E716502587E068ED /* Pods-Info Center for League of Legends.release.xcconfig */,
+			);
+			name = "Pods-Info Center for League of Legends";
+			path = "Target Support Files/Pods-Info Center for League of Legends";
+			sourceTree = "<group>";
+		};
+		D7C572D26A8C8697CDC81DCECF3A52E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5469696A2EDBD94085B652CE82407 /* AMPopTip.framework */,
+				E9F7C1A4E939FBCB7F2979DF8939E46E /* BEMSimpleLineGraph.framework */,
+				5AE77698F4BC1330C6F1AD11023FFEF5 /* JSBadgeView.bundle */,
+				8DC5C3E91842E51E92A7FDEDD5848066 /* JSBadgeView.framework */,
+				C60B49DB0886E4C134EA3D028856D23D /* MBCircularProgressBar.bundle */,
+				0025A555956B93020AD94CF0A082DE43 /* MBCircularProgressBar.framework */,
+				790FF41D887630AC4B049B0882C0E9F3 /* Pods_Info_Center_for_League_of_Legends.framework */,
+				123E6FC53F1481C4D5DFA208E6491510 /* SGSStaggeredFlowLayout.framework */,
+				96223B3CE6ED5DE805A51B649090AA30 /* XCDYouTubeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19ADF43347D36036AC955578D98ABBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC5C6F6120FF97AB5879457970A8192 /* Info.plist */,
+				16DDFE7E5ABF65537A8B394B7F8C7566 /* SGSStaggeredFlowLayout.modulemap */,
+				FD6D0F00C0C9FFEB8E07552EE63B982A /* SGSStaggeredFlowLayout.xcconfig */,
+				DD7A5627283CE7CAFD3B3E67FF4613CA /* SGSStaggeredFlowLayout-dummy.m */,
+				D03EA8D47F2A0B7ACF3C10C9CF04F3F5 /* SGSStaggeredFlowLayout-prefix.pch */,
+				932FB20480404F95E70DDEC2F871C131 /* SGSStaggeredFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SGSStaggeredFlowLayout";
+			sourceTree = "<group>";
+		};
+		EAF22CF651F37AE4360011830B54D88D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7812A0642358B45DDBF88C3709F8497F /* AMPopTip.modulemap */,
+				D420569F1EDD1BCCEF18554EB7A41304 /* AMPopTip.xcconfig */,
+				924335FFB669EC61A00ECAA29C7E9201 /* AMPopTip-dummy.m */,
+				9CFABA1E76BBD6CF26E62004981BD910 /* AMPopTip-prefix.pch */,
+				2E62494D33A9162E48CBE04C5B660EFC /* AMPopTip-umbrella.h */,
+				D355869231FCF166829483069D2AA45E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMPopTip";
+			sourceTree = "<group>";
+		};
+		EB3DD33D9768B26159776F2FA10F0391 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A5D069BBCF2627CE77850ED4CE419F6 /* Info.plist */,
+				3AE7FE95C2FFEE44242CDF34D45C5F17 /* JSBadgeView.modulemap */,
+				C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */,
+				284BF981C57F8961E9E3DE6F90E29E9F /* JSBadgeView-dummy.m */,
+				41F64893E3D4EF2FE11FA8708316B5A9 /* JSBadgeView-prefix.pch */,
+				AC429FD52D2493A7FF8DA6D857AC64C5 /* JSBadgeView-umbrella.h */,
+				EDFA66C9DA057706A64525B5222A2504 /* ResourceBundle-JSBadgeView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSBadgeView";
+			sourceTree = "<group>";
+		};
+		EBACB2506471C7E4074F1905A96C84AE /* JSBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				D345B21D3E4C862EB30BC32725A02FAF /* JSBadgeView.h */,
+				939922E4C73BD27A8EA077C5E1CF92BA /* JSBadgeView.m */,
+				EB3DD33D9768B26159776F2FA10F0391 /* Support Files */,
+			);
+			name = JSBadgeView;
+			path = JSBadgeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41890B42B8C586B7F6F0C3F67CBB8D33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5A7B4C94D3D46EDFBF4E9E705CB825 /* AMPopTip+Animation.h in Headers */,
+				8EB4D1D0688DF8F8E55C1911C09490D4 /* AMPopTip+Draw.h in Headers */,
+				7F9E143226AEFDCEF50DE4C03E45849E /* AMPopTip+Entrance.h in Headers */,
+				E0ABD89C3E04433BEFBE1AC677DF7803 /* AMPopTip+Exit.h in Headers */,
+				81B3C7DF006995227EB11176C5B30842 /* AMPopTip-umbrella.h in Headers */,
+				A9E33486F23D3DCE5A4FBC0A7ED41173 /* AMPopTip.h in Headers */,
+				547D93AA0355E1D702AA8528BD14F305 /* AMPopTipDefaults.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801C0F425C39E72A169D8DC2FD719973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89F8EC2FA230C3858EB23E39BD87A3 /* XCDYouTubeClient.h in Headers */,
+				512E9C02791C1FC0289EB52C6F8D4D0B /* XCDYouTubeError.h in Headers */,
+				08562D03E2511A3F14E5F048B53E987F /* XCDYouTubeKit-umbrella.h in Headers */,
+				8BD42A0E9C61C9B45A6FCB1C6F2558A6 /* XCDYouTubeKit.h in Headers */,
+				37197A5B787C28106F8B170C59B966E6 /* XCDYouTubeLogger+Private.h in Headers */,
+				6816AD81363A48E7DD7BF2D2889A147C /* XCDYouTubeLogger.h in Headers */,
+				03C1C4CA9FF9BF191C6F30D203B1F6F4 /* XCDYouTubeOperation.h in Headers */,
+				B3D283A140C8C0B67270C3855FD493FC /* XCDYouTubePlayerScript.h in Headers */,
+				BBF2ACD3C2D6BC86B844D870D649CBE8 /* XCDYouTubeVideo+Private.h in Headers */,
+				ADD6D7C55162AB66CB1B716A8FCC8FBB /* XCDYouTubeVideo.h in Headers */,
+				55D5EEB9B69E99D4060733A2B15F9477 /* XCDYouTubeVideoOperation.h in Headers */,
+				BBA79FCF1B0B3B9AF073DD7A7332E034 /* XCDYouTubeVideoPlayerViewController.h in Headers */,
+				8ECD33327145C2EC525419EA74F1CD64 /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDED423007C22CE7848C0B18BB3B296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CFC4AC38D180712276C0BA0BA3FFAB /* Pods-Info Center for League of Legends-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7CA2523496D07CD7F26C918D7881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28818D2A2515DCB4353FBA631E3802A8 /* MBCircularProgressBar-umbrella.h in Headers */,
+				5D87F3DADCD4493C556A08CE44F15C8B /* MBCircularProgressBarLayer.h in Headers */,
+				A17E6E1C53C7D3D2FA803DF74A013B78 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA45AF7346E6306B06ECBBB77CE5C76A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE17986C01ADDCE240C35B0FAA828C7 /* SGSStaggeredFlowLayout-umbrella.h in Headers */,
+				80435D592C8A45C0A4CD1DDCAB0EA487 /* SGSStaggeredFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD129BBB9B9889D4AA4F9C2D0869AC5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C24264DEB75B813456B5ED96582995 /* BEMAverageLine.h in Headers */,
+				FB964447624EF2929A63ABE0EE89A282 /* BEMCircle.h in Headers */,
+				F892C572B72F84C28F3903F02447AC68 /* BEMGraphCalculator.h in Headers */,
+				A928038835630D15DD884BFE84567845 /* BEMLine.h in Headers */,
+				5FC3D7432725924EA5FD01ACA90178C1 /* BEMSimpleLineGraph-umbrella.h in Headers */,
+				BBFC8F825296EA8358FB70B3D986598B /* BEMSimpleLineGraphView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF739D05F009A3946BFB5E471D74B5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78A793D6A9B9ABF1D527D08A427D7D3 /* JSBadgeView-umbrella.h in Headers */,
+				745C0807A5ADD9087997AB4C488308F4 /* JSBadgeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4713F0C254D824AFCE023D25B1184AF3 /* JSBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F233E73388180ABE2BF263A216BE90 /* Build configuration list for PBXNativeTarget "JSBadgeView" */;
+			buildPhases = (
+				5C28C9C7D1549D863307523F2F85451D /* Sources */,
+				307D68CE799F0218D13F31384158D414 /* Frameworks */,
+				73CA69B00211BC24AA42449EF0772011 /* Resources */,
+				EAF739D05F009A3946BFB5E471D74B5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA907C5D592851561EC3E1B6724DBCF /* PBXTargetDependency */,
+			);
+			name = JSBadgeView;
+			productName = JSBadgeView;
+			productReference = 8DC5C3E91842E51E92A7FDEDD5848066 /* JSBadgeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BE9AF9A31F622A73BBD80BBC396FB3D /* SGSStaggeredFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA95D00F7D78C40DC6370A37495EA0E /* Build configuration list for PBXNativeTarget "SGSStaggeredFlowLayout" */;
+			buildPhases = (
+				EC9D56D0D2190D860DEE874802822CDE /* Sources */,
+				AFBC945B7FA8A164622ABBA180923376 /* Frameworks */,
+				DA45AF7346E6306B06ECBBB77CE5C76A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGSStaggeredFlowLayout;
+			productName = SGSStaggeredFlowLayout;
+			productReference = 123E6FC53F1481C4D5DFA208E6491510 /* SGSStaggeredFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD1A84B2F4E05B55204944EAFBC21D1 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */;
+			buildPhases = (
+				3F8A1BEA04CD209739F57A8B0F272C76 /* Sources */,
+				ACF2D18FF316906944CFB7837858B392 /* Frameworks */,
+				DD129BBB9B9889D4AA4F9C2D0869AC5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMSimpleLineGraph;
+			productName = BEMSimpleLineGraph;
+			productReference = E9F7C1A4E939FBCB7F2979DF8939E46E /* BEMSimpleLineGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93153FD695F0CABABC1B3E4C2F1F720E /* Pods-Info Center for League of Legends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1000E650CB7ADB6D5576482EDD9DC245 /* Build configuration list for PBXNativeTarget "Pods-Info Center for League of Legends" */;
+			buildPhases = (
+				187AB4DD8CC94294E5D70D48CA27D957 /* Sources */,
+				3B77C2D54B9713FBE43E3616D18F3415 /* Frameworks */,
+				9FDED423007C22CE7848C0B18BB3B296 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA922A4E2D8499CC84F42D64F1191FAA /* PBXTargetDependency */,
+				E7F25634319315B9AF4AE38A8FD799C1 /* PBXTargetDependency */,
+				781920384CD6E7FDC8D5C5C90AAEEDD2 /* PBXTargetDependency */,
+				FC9948D6CF4D68CDB7B6BC800BE265BD /* PBXTargetDependency */,
+				7FBABC4984D3CC144AB3E4B1CAB45745 /* PBXTargetDependency */,
+				74637DC6E251F68870DC1455B881156D /* PBXTargetDependency */,
+			);
+			name = "Pods-Info Center for League of Legends";
+			productName = "Pods-Info Center for League of Legends";
+			productReference = 790FF41D887630AC4B049B0882C0E9F3 /* Pods_Info_Center_for_League_of_Legends.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F64F691C3C68E6FDA6FB1E22434EBA5 /* AMPopTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253B960A2CDD1CCD7054268D45031107 /* Build configuration list for PBXNativeTarget "AMPopTip" */;
+			buildPhases = (
+				91948B934576C05239A2044C16A2D459 /* Sources */,
+				B31D8378166760D4DA1D6194C4DAEA10 /* Frameworks */,
+				41890B42B8C586B7F6F0C3F67CBB8D33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMPopTip;
+			productName = AMPopTip;
+			productReference = C9B5469696A2EDBD94085B652CE82407 /* AMPopTip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A25615DF9BF8FFAF6A63BF1D878DC7DB /* JSBadgeView-JSBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB135187F0FB5678E9D8140364EEDC3C /* Build configuration list for PBXNativeTarget "JSBadgeView-JSBadgeView" */;
+			buildPhases = (
+				1D08B092449E50F2AA08C688A2E39113 /* Sources */,
+				AC24D9FFBB96E4CFB36F34E4E73294D3 /* Frameworks */,
+				DB3CB44AF2E577EBF3905EE19CA79635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSBadgeView-JSBadgeView";
+			productName = "JSBadgeView-JSBadgeView";
+			productReference = 5AE77698F4BC1330C6F1AD11023FFEF5 /* JSBadgeView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605D5A449D02B28D2C6B396D7E8A5C3A /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				9AEC3FFB5B6F48E0E5F2DF217DFADADF /* Sources */,
+				BAA83FDD4EF2FF8BFA6B0418F44B4A73 /* Frameworks */,
+				F10A5FE60E66EC0D9EB78461082AF6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = C60B49DB0886E4C134EA3D028856D23D /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CAF601B9C51EE50C2DF710D605F4C431 /* XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68449EE2B6B52880279F99B9A472A1AA /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */;
+			buildPhases = (
+				ABD2A93AC05ED85CC9750D9D17D12480 /* Sources */,
+				9D46FBBBFEBE450F53A9A646D603A1D1 /* Frameworks */,
+				801C0F425C39E72A169D8DC2FD719973 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCDYouTubeKit;
+			productName = XCDYouTubeKit;
+			productReference = 96223B3CE6ED5DE805A51B649090AA30 /* XCDYouTubeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E20D41BA21B8C5E09AC977A80690CB /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				F36603F13FBCB3C8DA52E7C6B588ECE1 /* Sources */,
+				8BB1B21FFE3B565A90266277AE2A5852 /* Frameworks */,
+				541A92597D093D377E4169D842C881B6 /* Resources */,
+				AA9C7CA2523496D07CD7F26C918D7881 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71C0FC33E6BF208246BD36D722BEA99 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = 0025A555956B93020AD94CF0A082DE43 /* MBCircularProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D7C572D26A8C8697CDC81DCECF3A52E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F64F691C3C68E6FDA6FB1E22434EBA5 /* AMPopTip */,
+				8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */,
+				4713F0C254D824AFCE023D25B1184AF3 /* JSBadgeView */,
+				A25615DF9BF8FFAF6A63BF1D878DC7DB /* JSBadgeView-JSBadgeView */,
+				F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */,
+				CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */,
+				93153FD695F0CABABC1B3E4C2F1F720E /* Pods-Info Center for League of Legends */,
+				5BE9AF9A31F622A73BBD80BBC396FB3D /* SGSStaggeredFlowLayout */,
+				CAF601B9C51EE50C2DF710D605F4C431 /* XCDYouTubeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541A92597D093D377E4169D842C881B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF93FCB1E7333C4DA22900A7789ACC8 /* MBCircularProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA69B00211BC24AA42449EF0772011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CFD0E65088F61FF8DBDE5C9E280E69 /* JSBadgeView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3CB44AF2E577EBF3905EE19CA79635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10A5FE60E66EC0D9EB78461082AF6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4DB055CF0A5687AF7CC6067A7AEB46 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187AB4DD8CC94294E5D70D48CA27D957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916253E339E12400A104EBAF76A9AFD2 /* Pods-Info Center for League of Legends-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D08B092449E50F2AA08C688A2E39113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A1BEA04CD209739F57A8B0F272C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7469C26B86045643D4744DE14A5AF3E0 /* BEMAverageLine.m in Sources */,
+				AD24FD50F7E0BBB023882D380F567D2E /* BEMCircle.m in Sources */,
+				BFA6BE62D09F0653B1B7D1FB5B257EBF /* BEMGraphCalculator.m in Sources */,
+				180CDEF4CDFCBF06107CA613EEFB9393 /* BEMLine.m in Sources */,
+				2EB764679D4DB99AA67802632402667A /* BEMSimpleLineGraph-dummy.m in Sources */,
+				CF170180BC557AB61E0D3A65B1DED90F /* BEMSimpleLineGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C28C9C7D1549D863307523F2F85451D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319A52E615993CB658BC704C0A70358A /* JSBadgeView-dummy.m in Sources */,
+				BFD47852FF069D72E49ECB61FAA3D969 /* JSBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91948B934576C05239A2044C16A2D459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DB770FBBCD57A516BFB672FDD6ED35 /* AMPopTip+Animation.m in Sources */,
+				B6A5D6455666B19E86FA7B8AE4D5EF44 /* AMPopTip+Draw.m in Sources */,
+				70A062F38885143D2FDB4E1D00C923FB /* AMPopTip+Entrance.m in Sources */,
+				98BAB2A66134DBAADE719DFBD0EA6C85 /* AMPopTip+Exit.m in Sources */,
+				9D6605300ADB51894C44E6F8E27B176E /* AMPopTip-dummy.m in Sources */,
+				0F83504990983574CABCA0152C309775 /* AMPopTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEC3FFB5B6F48E0E5F2DF217DFADADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2A93AC05ED85CC9750D9D17D12480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E104C92C1E3ECCBCE651B35AC7FA6A /* XCDYouTubeClient.m in Sources */,
+				3FD18B8CB09B6670A3C2E262621E246B /* XCDYouTubeKit-dummy.m in Sources */,
+				A7192B5DF2E925DDA816B927AD0C3030 /* XCDYouTubeLogger.m in Sources */,
+				B125CE2DB2CD52BDCA6180659B1AE37B /* XCDYouTubePlayerScript.m in Sources */,
+				56B0D5D3EAB6EB25495070DB1EA74C18 /* XCDYouTubeVideo.m in Sources */,
+				AE82BF11FEA4526DF02D2DD824AA04D2 /* XCDYouTubeVideoOperation.m in Sources */,
+				2A06C6DDEB5786CA18B5D365BFAB7106 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				BC00BF1B4A2E99CC4E61C078303A33DB /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9D56D0D2190D860DEE874802822CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8586244A9FD8A8D0165068EF8ABDC /* SGSStaggeredFlowLayout-dummy.m in Sources */,
+				4BF8008DA1AFF6C9CA41F959E4E16234 /* SGSStaggeredFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36603F13FBCB3C8DA52E7C6B588ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C8278B25BBE7290F8A0818E1705A86 /* MBCircularProgressBar-dummy.m in Sources */,
+				A94A11448B594303235C9908A4F04A8C /* MBCircularProgressBarLayer.m in Sources */,
+				7B5656D4FDD9E33EA4EAFB591F9D3237 /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA907C5D592851561EC3E1B6724DBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JSBadgeView-JSBadgeView";
+			target = A25615DF9BF8FFAF6A63BF1D878DC7DB /* JSBadgeView-JSBadgeView */;
+			targetProxy = 57DEF9B3E7EBE11152ACAF0E6473D014 /* PBXContainerItemProxy */;
+		};
+		74637DC6E251F68870DC1455B881156D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCDYouTubeKit;
+			target = CAF601B9C51EE50C2DF710D605F4C431 /* XCDYouTubeKit */;
+			targetProxy = B6B71AB973C45DE601E6BAF7A9A8DD4C /* PBXContainerItemProxy */;
+		};
+		781920384CD6E7FDC8D5C5C90AAEEDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSBadgeView;
+			target = 4713F0C254D824AFCE023D25B1184AF3 /* JSBadgeView */;
+			targetProxy = 5E3FD50E06129C6804985E9CFDE03242 /* PBXContainerItemProxy */;
+		};
+		7FBABC4984D3CC144AB3E4B1CAB45745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGSStaggeredFlowLayout;
+			target = 5BE9AF9A31F622A73BBD80BBC396FB3D /* SGSStaggeredFlowLayout */;
+			targetProxy = 0E01499D58976B3F0EAC77642E8251E4 /* PBXContainerItemProxy */;
+		};
+		AA922A4E2D8499CC84F42D64F1191FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMPopTip;
+			target = 9F64F691C3C68E6FDA6FB1E22434EBA5 /* AMPopTip */;
+			targetProxy = 118A66A41AC74318AF20CAD8548B7B06 /* PBXContainerItemProxy */;
+		};
+		D71C0FC33E6BF208246BD36D722BEA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = CAC840DD7C14BED838F74AD37CD7CBBA /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 301A6F64EDD08CFF4C105CE828187E61 /* PBXContainerItemProxy */;
+		};
+		E7F25634319315B9AF4AE38A8FD799C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMSimpleLineGraph;
+			target = 8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */;
+			targetProxy = D62A2B44685B0467F71163E9E70455E3 /* PBXContainerItemProxy */;
+		};
+		FC9948D6CF4D68CDB7B6BC800BE265BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = F579AA4D4755DD9570010BC36D0422F7 /* MBCircularProgressBar */;
+			targetProxy = 541F276CB258002FA4F8092E59AB0EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C5A6A2B49180FE9DF8F7861A4A370A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSBadgeView/JSBadgeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBadgeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBadgeView/JSBadgeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B58AD2D88255D16FF8C3A2F46FD1B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D420569F1EDD1BCCEF18554EB7A41304 /* AMPopTip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPopTip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMPopTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D192ADE3E05061E4CD57721899C3B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DB0280BDC709273D54D26C9F43DFE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSBadgeView/JSBadgeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBadgeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBadgeView/JSBadgeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE0E408B644FDC747633D171AC1BA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B91082B2EFD462EA3307F819FD4C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6D0F00C0C9FFEB8E07552EE63B982A /* SGSStaggeredFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SGSStaggeredFlowLayout/SGSStaggeredFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGSStaggeredFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGSStaggeredFlowLayout/SGSStaggeredFlowLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SGSStaggeredFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84F1F22D07CF52FDE5719C37A687E12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JSBadgeView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JSBadgeView/ResourceBundle-JSBadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JSBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8F75AE3C50AE327EE41A76DC778C6E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBC6850A1515FD3181B5AF8E7E6EA53 /* BEMSimpleLineGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMSimpleLineGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BEMSimpleLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93B9B8D2E86DC8BEC2B0FE36977986DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E14442F93642DF0E716502587E068ED /* Pods-Info Center for League of Legends.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Info Center for League of Legends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Info Center for League of Legends/Pods-Info Center for League of Legends.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Info_Center_for_League_of_Legends;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0893FE28B5C17026F8CEA2B8722D201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CCDD4B73157E77404DD024ED01E0D5 /* Pods-Info Center for League of Legends.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Info Center for League of Legends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Info Center for League of Legends/Pods-Info Center for League of Legends.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Info_Center_for_League_of_Legends;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6646F4242B659BF18FC82CF17D24332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A8B21D7A8E95C7DB13F1C8144BFFB85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98D2C94F22E8546CF7216024B21EFD5 /* JSBadgeView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JSBadgeView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JSBadgeView/ResourceBundle-JSBadgeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JSBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C425B0EFD6D575226B2484F2A756C999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E001ABA2DA44F783E2B9C40037208E /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCDYouTubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XCDYouTubeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8E00E639CE9ED596C15EE9B6BF88B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBC6850A1515FD3181B5AF8E7E6EA53 /* BEMSimpleLineGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMSimpleLineGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BEMSimpleLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA88F093F06F44657D227F22410BDE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC0BB336C5561E6E41565B8329A0651 /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E1A150A392A239FB967AC0F7A9B7AEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6D0F00C0C9FFEB8E07552EE63B982A /* SGSStaggeredFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SGSStaggeredFlowLayout/SGSStaggeredFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGSStaggeredFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGSStaggeredFlowLayout/SGSStaggeredFlowLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SGSStaggeredFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5097CBB52093AA4BDA25293014497F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E001ABA2DA44F783E2B9C40037208E /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCDYouTubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XCDYouTubeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F699E078D293FB8CB13B448A336D58DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D420569F1EDD1BCCEF18554EB7A41304 /* AMPopTip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPopTip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMPopTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1000E650CB7ADB6D5576482EDD9DC245 /* Build configuration list for PBXNativeTarget "Pods-Info Center for League of Legends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0893FE28B5C17026F8CEA2B8722D201 /* Debug */,
+				93B9B8D2E86DC8BEC2B0FE36977986DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253B960A2CDD1CCD7054268D45031107 /* Build configuration list for PBXNativeTarget "AMPopTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B58AD2D88255D16FF8C3A2F46FD1B16 /* Debug */,
+				F699E078D293FB8CB13B448A336D58DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA95D00F7D78C40DC6370A37495EA0E /* Build configuration list for PBXNativeTarget "SGSStaggeredFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B91082B2EFD462EA3307F819FD4C1BA /* Debug */,
+				E1A150A392A239FB967AC0F7A9B7AEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605D5A449D02B28D2C6B396D7E8A5C3A /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F093F06F44657D227F22410BDE95 /* Debug */,
+				A6646F4242B659BF18FC82CF17D24332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68449EE2B6B52880279F99B9A472A1AA /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C425B0EFD6D575226B2484F2A756C999 /* Debug */,
+				F5097CBB52093AA4BDA25293014497F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F233E73388180ABE2BF263A216BE90 /* Build configuration list for PBXNativeTarget "JSBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C5A6A2B49180FE9DF8F7861A4A370A /* Debug */,
+				1DB0280BDC709273D54D26C9F43DFE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD1A84B2F4E05B55204944EAFBC21D1 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E00E639CE9ED596C15EE9B6BF88B7A /* Debug */,
+				8F75AE3C50AE327EE41A76DC778C6E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E20D41BA21B8C5E09AC977A80690CB /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE0E408B644FDC747633D171AC1BA21 /* Debug */,
+				1D192ADE3E05061E4CD57721899C3B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB135187F0FB5678E9D8140364EEDC3C /* Build configuration list for PBXNativeTarget "JSBadgeView-JSBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B21D7A8E95C7DB13F1C8144BFFB85A /* Debug */,
+				84F1F22D07CF52FDE5719C37A687E12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

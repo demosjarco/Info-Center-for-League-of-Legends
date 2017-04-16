@@ -1,0 +1,37 @@
+PODS:
+  - AMPopTip (1.4.2)
+  - BEMSimpleLineGraph (4.1.1)
+  - JSBadgeView (1.4.1)
+  - MBCircularProgressBar (0.3.5)
+  - SGSStaggeredFlowLayout (0.0.1)
+  - XCDYouTubeKit (2.5.5)
+
+DEPENDENCIES:
+  - AMPopTip
+  - BEMSimpleLineGraph (from `https://github.com/Boris-Em/BEMSimpleLineGraph.git`, branch `feature`)
+  - JSBadgeView
+  - MBCircularProgressBar
+  - SGSStaggeredFlowLayout
+  - XCDYouTubeKit
+
+EXTERNAL SOURCES:
+  BEMSimpleLineGraph:
+    :branch: feature
+    :git: https://github.com/Boris-Em/BEMSimpleLineGraph.git
+
+CHECKOUT OPTIONS:
+  BEMSimpleLineGraph:
+    :commit: a1c0279720f649b9855d05ff8290e85613ca18f5
+    :git: https://github.com/Boris-Em/BEMSimpleLineGraph.git
+
+SPEC CHECKSUMS:
+  AMPopTip: e53d714c276d2a3b2b10914c5d7db486d35a041e
+  BEMSimpleLineGraph: 90d30ff3111380f93a0ea25db0eaaf41a5fc8579
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SGSStaggeredFlowLayout: 7b20a3b7ac88a0db063ce9c4ac71c5fc95e165c2
+  XCDYouTubeKit: 86f4e7a9c2baa7b7adf6abfc28ac3ab34927be2d
+
+PODFILE CHECKSUM: 825798db7b98a30c33c146b5f4ae2e8ac7931af5
+
+COCOAPODS: 1.2.1

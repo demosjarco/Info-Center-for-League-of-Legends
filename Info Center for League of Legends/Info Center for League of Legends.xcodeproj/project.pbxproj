@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17854AF21EA30FDE005E245B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17854AF11EA30FDE005E245B /* GoogleService-Info.plist */; };
 		17CE58A91EA2EDAF00EB3E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE58A81EA2EDAF00EB3E40 /* AppDelegate.swift */; };
 		17CE58AB1EA2EDAF00EB3E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE58AA1EA2EDAF00EB3E40 /* ViewController.swift */; };
 		17CE58AE1EA2EDAF00EB3E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CE58AC1EA2EDAF00EB3E40 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0BF8F4FF8C8480AF2352AC32 /* Pods-Info Center for League of Legends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Info Center for League of Legends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Info Center for League of Legends/Pods-Info Center for League of Legends.debug.xcconfig"; sourceTree = "<group>"; };
+		17854AF11EA30FDE005E245B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17CE58A51EA2EDAF00EB3E40 /* Info Center for League of Legends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Info Center for League of Legends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CE58A81EA2EDAF00EB3E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CE58AA1EA2EDAF00EB3E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				17D723261EA2F01B00BBED97 /* Normal.xcassets */,
 				17D723251EA2F01B00BBED97 /* Fall.xcassets */,
 				17D723271EA2F01B00BBED97 /* Winter.xcassets */,
+				17854AF11EA30FDE005E245B /* GoogleService-Info.plist */,
 				17CE58B71EA2EDAF00EB3E40 /* Info.plist */,
 				17CE58AF1EA2EDAF00EB3E40 /* Info_Center_for_League_of_Legends.xcdatamodeld */,
 			);
@@ -165,6 +168,7 @@
 				17D7232A1EA2F01B00BBED97 /* Winter.xcassets in Resources */,
 				17CE58AE1EA2EDAF00EB3E40 /* Main.storyboard in Resources */,
 				17D723281EA2F01B00BBED97 /* Fall.xcassets in Resources */,
+				17854AF21EA30FDE005E245B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
